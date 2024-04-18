@@ -1,0 +1,31 @@
+img {
+  max-width: 100%;
+}
+.navbar--paragraph {
+  font-size: 0.8rem;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar--paragraph {
+    font-size: 2rem;
+  }
+}
+
+#watch {
+  width: 200px;
+}
+
+.new--arrivals--paragraph {
+  max-width: 800px;
+}
+
+.showcase--cards--container {
+  display: grid;
+  grid-template-rows: 1fr;
+  gap: 1rem;
+}
+@media screen and (min-width: 1000px) {
+  .showcase--cards--container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
